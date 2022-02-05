@@ -4,5 +4,11 @@ spring:
 			uri: mongodb://localhost:27017/ecommerce
 			database: ecommerce
 
+springdoc:
+	api-docs:
+		path: /openapi
+	swagger-ui:
+		path: /openapi/index.html
+
 server:
 	port: 8080
